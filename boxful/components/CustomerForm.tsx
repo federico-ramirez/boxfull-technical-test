@@ -6,11 +6,6 @@ import { ArrowRightOutlined, CalendarOutlined, CompassFilled } from '@ant-design
 import React, { lazy, useState } from 'react'
 import Flag from 'react-world-flags'
 
-/**
- * 
-        7682A0
- */
-
 const countryOptions: SelectProps["options"] = [
     { label: <span><Flag code={'sv'} /></span>, value: "+503" },
     { label: <span><Flag code={'hn'} /></span>, value: "+504" },
@@ -41,8 +36,6 @@ export default function CustomerForm() {
     const [selectedCode, setSelectedCode] = useState("+503");
     const [selectedState, setSelectedState] = useState("San Salvador");
     const [selectedCity, setSelectedCity] = useState("");
-
-
 
     const calendarIcon = <CalendarOutlined />;
     const addressIcon = <CompassFilled />;
