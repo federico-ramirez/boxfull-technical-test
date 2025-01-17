@@ -1,5 +1,7 @@
 import ItemCard from '@/components/ItemCard'
 import OrderForm from '@/components/OrderForm'
+import { ArrowLeftOutlined, ArrowRightOutlined } from '@ant-design/icons'
+import { Button } from 'antd'
 import React from 'react'
 
 export const metadata = {
@@ -22,7 +24,12 @@ export default function OrderPage() {
             <p className='text-sm py-4 text-gray-500 font-semibold'>Agrega tus bultos</p>
             <ItemCard />
             <div className='grid grid-cols-2'>
-              
+              <div className='pr-2'>
+                <Button color='default' variant='filled' size='large' className='w-full border-2 border-gray-200 md:w-40 md:h-16 text-right font-semibold text-gray-500 mr-2'><span className='mr-8'><ArrowLeftOutlined /></span> Regresar</Button>
+              </div>
+              <div className='pl-2 md:pl-4'>
+                <Button color='primary' variant='solid' size='large' className='w-full md:w-64 md:h-16 font-semibold md:-right-16 lg:-right-44'>Enviar <span><ArrowRightOutlined /></span></Button>
+              </div>
             </div>
           </section>
         </section>

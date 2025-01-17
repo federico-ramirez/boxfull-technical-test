@@ -115,7 +115,7 @@ export default function CustomerForm() {
                     <Input placeholder='Indicaciones' size='large' />
                 </Form.Item>
                 <div className='md:col-start-3 md:grid md:justify-items-end p-2'>
-                    <Button type="primary" size='large' className='w-full md:w-max md:h-16'>Siguiente <span className='ml-12'><ArrowRightOutlined /></span></Button>
+                    <Button color="primary" size='large' className='w-full md:w-max md:h-16'>Siguiente <span className='ml-12'><ArrowRightOutlined /></span></Button>
                 </div>
             </Form>
         </section>
