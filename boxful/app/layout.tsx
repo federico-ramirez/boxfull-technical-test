@@ -3,6 +3,7 @@ import { Albert_Sans } from "next/font/google";
 import boxLogo from "@/assets/Logo-Boxful.png";
 import "./globals.css";
 import Image from "next/image";
+import '@ant-design/v5-patch-for-react-19';
 
 const albertSans = Albert_Sans({
   variable: "--font-albert-sans",
