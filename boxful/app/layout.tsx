@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const header = (
-    <header className="w-screen bg-white">
+    <header className="w-full bg-white">
       <Image src={boxLogo} alt="Boxful Logo" height={50} className="mx-4" />
     </header>
   )
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${albertSans.className} w-full h-screen min-h-screen antialiased`}
+        className={`${albertSans.className} w-full h-full min-h-full bg-gray-custom`}
       >
         {header}
         {children}
