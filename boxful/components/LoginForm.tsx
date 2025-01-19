@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowRightOutlined } from '@ant-design/icons'
+import { LoginOutlined } from '@ant-design/icons'
 import { Button, Form, Input } from 'antd'
 import React from 'react'
 
@@ -33,7 +33,7 @@ export default function LoginForm() {
                     <Input type='password' placeholder='Contraseña' size='large' />
                 </Form.Item>
                 <div className='md:flex md:place-items-end'>
-                    <Button color="primary" variant='solid' size='large' className='w-full md:w-max md:h-16 md:mx-auto'>Iniciar sesión <span className='ml-12'><ArrowRightOutlined /></span></Button>
+                    <Button color="primary" variant='solid' size='large' className='w-full md:w-max md:h-16 md:mx-auto'>Iniciar sesión <span className='ml-12'><LoginOutlined /></span></Button>
                 </div>
             </Form>
         </section>
